@@ -30,6 +30,10 @@ const Header = () => {
         <HeaderOption Icon={BusinessCenterIcon} title="Jobs" />
         <HeaderOption Icon={ChatIcon} title="Messaging" />
         <HeaderOption Icon={NotificationsIcon} title="Notifications" />
+        <HeaderOption
+          avatar="https://i.etsystatic.com/20344761/r/il/20548d/3352483561/il_570xN.3352483561_1jgq.jpg"
+          title="me"
+        />
       </div>
     </div>
   );
