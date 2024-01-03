@@ -12,3 +12,11 @@ https://www.youtube.com/watch?v=QaYts9sPmcY
 3. command + p for search file in the vscode
 
 4. add avatar now
+
+## Feed section
+
+1. search: generate the template of html, adjust the input style with flex:1 & border:none is cute.
+2. reusable component: InputOption, using props(Icon, title, color)
+   <img src="">
+3. Post area:
+   we used reusable components again. (InputOption)

@@ -6,6 +6,7 @@ import EventNoteIcon from '@mui/icons-material/EventNote';
 import CalendarViewDayIcon from '@mui/icons-material/CalendarViewDay';
 import './Feed.css';
 import InputOption from './InputOption';
+import Post from './Post';
 const Feed = () => {
   return (
     <div className="feed">
@@ -29,6 +30,13 @@ const Feed = () => {
           />
         </div>
       </div>
+
+      {/* Posts */}
+      <Post
+        name="Laura Luo"
+        description="test test test"
+        message="Wow this works"
+      />
     </div>
   );
 };
