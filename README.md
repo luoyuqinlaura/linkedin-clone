@@ -24,3 +24,5 @@ https://www.youtube.com/watch?v=QaYts9sPmcY
    - paste firebase config file and in the terminal install firebase -> import firebase -> initializeApp function sets everything up.
    - useEffect hook: every time the component using this hook is updated or rerendered, if we dont pass a second argument.
    - Key is important when redering out a list in React, because we only want react to render the last thing we put in, we need to use key to recognize it, instead of rerendering the whole list.
+4. Redux: control data flow inside app, preventing from 'prop driling'.
+   <img src=""/>
